@@ -25,8 +25,16 @@
             double length2 = Math.sqrt(Math.pow(x4 - x3,2) +  Math.pow(y4 - y3, 2));
             System.out.println("length of line :" + length2);
 
-
-
-
+            System.out.println("length of lines are : ");
+            System.out.println("line1:"+length1);
+            System.out.println("line2:"+length2);
+            if (length1 > length2)
+            {
+                System.out.println("line1 is greater than line2");
+            }
+            else if (length1 < length2)
+            {
+                System.out.println("line1 is less than line2");
+            }
         }
     }
